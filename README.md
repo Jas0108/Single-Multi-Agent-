@@ -2,7 +2,7 @@
 
 A clean, minimal AI-powered tutor using Ollama with both single-agent and multi-agent architectures.
 
-## 🚀 Setup
+## Setup
 
 ### 1. Activate virtual environment
 ```bash
@@ -29,7 +29,7 @@ python main.py
 python main_multi.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-tutor/
@@ -68,7 +68,7 @@ ai-tutor/
     └── chemistry_prompt.txt    # Chemistry specialist prompt
 ```
 
-## 🎯 Features
+## Features
 
 ### Phase 1: Single Agent
 - General STEM tutoring
@@ -82,7 +82,7 @@ ai-tutor/
 - LangGraph workflow orchestration
 - Subject-specific expertise
 
-## � Multi-Agent Workflow
+## Multi-Agent Workflow
 
 The multi-agent system uses LangGraph to create an intelligent routing system:
 
@@ -104,7 +104,7 @@ The multi-agent system uses LangGraph to create an intelligent routing system:
                                └─────────────┘
 ```
 
-### 📋 Workflow Steps:
+###  Workflow Steps:
 
 1. **START** → User input enters the system
 2. **SUPERVISOR** → Analyzes and classifies the query:
@@ -115,21 +115,21 @@ The multi-agent system uses LangGraph to create an intelligent routing system:
 4. **SPECIALIZED AGENT** → Provides subject-specific response
 5. **END** → Returns final answer to user
 
-### 🎯 Agent Responsibilities:
+### Agent Responsibilities:
 
 - **Supervisor**: Query classification only (no answering)
 - **Math Agent**: Algebra, calculus, statistics, step-by-step solutions
 - **Physics Agent**: Mechanics, thermodynamics, formulas, numerical problems
 - **Chemistry Agent**: Reactions, equations, concepts, stoichiometry
 
-## �🔧 Usage
+## Usage
 
 1. Start the application with either `main.py` or `main_multi.py`
 2. Type your STEM questions
 3. Get detailed, step-by-step responses
 4. Type 'exit' to quit
 
-## 📝 Example Questions
+## Example Questions
 
 **Math:**
 - "Solve 2x + 5 = 15"
@@ -143,7 +143,7 @@ The multi-agent system uses LangGraph to create an intelligent routing system:
 - "Balance the equation: H₂ + O₂ → H₂O"
 - "What is photosynthesis?"
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - LangChain
